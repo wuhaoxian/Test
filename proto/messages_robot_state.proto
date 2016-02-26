@@ -1,0 +1,13 @@
+message Mesg_RobotState {
+	required double x = 1;
+	required double y = 2;
+	required double theta = 3;
+	optional double noise_x = 4;
+	optional double noise_y = 5;
+	optional double noise_theta = 6;
+	optional double vx = 7;
+	optional double vy = 8;
+	optional double w = 9;
+	optional string timestamp = 10;
+	optional uint32 cycle = 11;
+}
